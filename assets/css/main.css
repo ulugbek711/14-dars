@@ -1,0 +1,823 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.backround {
+    background-image: url("../images/background_main.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding: 43px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.item_list {
+    list-style-type: none;
+}
+
+.item_link {
+    text-decoration: none;
+    color: #999;
+    font-family: "Lato400";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    transition: .5s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.item_link:hover {
+    color: black;
+    transition: .5s;
+}
+
+.main_img {
+    padding: 43px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div {
+    width: 520px;
+    height: 470px;
+    padding: 5px 50px;
+}
+
+.div_p {
+    color: #999;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.div_h {
+    color: #000;
+    font-family: "Tenor Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.div_p2 {
+    padding-top: 30px;
+    width: 419px;
+    color: #666;
+    font-family: "Source Serif Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.div_h1 {
+    padding-top: 40px;
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cards_two {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.card_images_one,
+.card_images_two,
+.text_card_one,
+.text_card_two {
+    width: 50%
+}
+
+.img_card_title,
+.text_card_title_one,
+.text_card_title_two {
+    margin-bottom: 16px;
+    color: black;
+    font-family: Manrope600;
+    font-size: 28px;
+    font-weight: 600
+}
+
+.img_card_text,
+.text_card_text_one,
+.text_card_text_two {
+    color: black;
+    font-family: Manrope400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.cards_two {
+    display: flex;
+    gap: 42px;
+    padding: 50px 100px 50px
+}
+
+.text_card_title_two {
+    color: #000;
+    font-family: "Tenor Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.text_card_text_two {
+    color: #666;
+    font-family: "Source Serif Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text_p {
+    color: #999;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.text_p2 {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.cards {
+    padding: 50px 100px;
+}
+
+.card_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+.p_text {
+    color: #999;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.h_text {
+    color: #000;
+    font-family: "Tenor Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 18px;
+}
+
+.p_align {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 74px;
+}
+
+.card_team1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.south {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_btn {
+    margin-bottom: 100px;
+    padding: 14px 25px;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family: Manrope500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.hero_btn:hover {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    background-color: black;
+    color: white;
+    border-color: #fff
+}
+
+.main {
+    padding: 50px 100px;
+}
+
+.main_p {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 590px 590px;
+    grid-column-gap: 55px;
+}
+
+.main_img img {
+    position: relative;
+    left: -100px;
+}
+
+.card_team2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer_p p {
+    color: gray;
+}
+
+.footer_p {
+    padding: 63px 120px;
+    display: flex;
+
+
+}
+
+.hr {
+    background-color: white;
+    width: 1200px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.footer_t {
+    display: grid;
+    grid-template-columns: 120px 100px 120px 2500px;
+    grid-template-rows: 24px 24px 24px 24px;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+
+.footer_h {
+    color: white;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+
+
+input {
+    width: 250px;
+    height: 41px;
+    background-color: #fff;
+    position: relative;
+    left: 1000px;
+    top: -120px;
+    cursor: pointer;
+
+}
+
+.ulugbek_btn {
+    width: 60px;
+    height: 43px;
+    background-color: #000;
+    color: white;
+    position: relative;
+    left: 1200px;
+    top: -162px;
+    cursor: pointer;
+}
+
+.w{
+    color: #666;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.ulugbek{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding-left: 120px;
+}
+.qw{
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1330px) {
+    .card_team {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card_team1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .card_team2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .cardas img {
+        width: 1100px;
+    }
+}
+
+
+
+@media only screen and (max-width:1250px) {
+
+    .cards_two {
+        gap: 30px;
+        padding: 50px 50px 100px
+    }
+
+    .cards {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    .footer_t {
+        grid-template-columns: 120px 100px 120px ;
+        grid-template-rows: 24px 24px 24px 24px 24px;
+    }
+    
+input {
+    position: relative;
+    left: 800px;
+    top: -120px;
+
+}
+
+.ulugbek_btn {
+    position: relative;
+    left: 1000px;
+    top: -162px;
+}
+    
+
+}
+
+@media only screen and (max-width:1170px) {
+
+    .cardas img {
+        width: 950px;
+    }
+
+}
+
+@media only screen and (max-width:1070px) {
+
+    .footer_t {
+        grid-template-columns: 120px 100px 120px ;
+        grid-template-rows: 24px 24px 24px 24px 24px;
+    }
+    
+input {
+    position: relative;
+    left: 700px;
+    top: -120px;
+
+}
+
+.ulugbek_btn {
+    position: relative;
+    left: 900px;
+    top: -162px;
+}
+    
+
+}
+
+
+@media only screen and (max-width:1030px) {
+
+    .cardas img {
+        width: 850px;
+    }
+
+}
+
+
+@media only screen and (max-width:1000px) {
+
+    .cards_two {
+        padding: 30px 20px 50px
+    }
+
+    .cards_two {
+        gap: 30px
+    }
+
+    .backround {
+        width: 100%;
+    }
+
+    .cards {
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:980px) {
+
+    .footer_t {
+        grid-template-columns: 120px 100px  ;
+        grid-template-rows: 24px 24px 24px 24px 24px;
+    }
+    
+input {
+    position: relative;
+    left: 500px;
+    top: -120px;
+
+}
+
+.ulugbek_btn {
+    position: relative;
+    left: 700px;
+    top: -162px;
+}
+}
+
+@media only screen and (max-width:940px) {
+    .card_team1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width:880px) {
+
+    .cardas img {
+        width: 750px;
+    }
+
+}
+
+@media only screen and (max-width:830px) {
+    .card_team {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 680px;
+    }
+
+    .p_align {
+        padding-bottom: 40px;
+    }
+
+    .card_team1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:790px) {
+
+    .cardas img {
+        width: 650px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .cards_two {
+        -webkit-box-orient: vertical
+    }
+
+    .container {
+        padding: 0
+    }
+
+
+    .cards_two {
+        padding: 0 20px 50px
+    }
+
+    .cards_two {
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .card_images_two,
+    .text_card_two {
+        width: 100%
+    }
+
+    .text_card_title_two {
+        margin-bottom: 10px;
+        font-size: 20px
+    }
+
+    .text_card_text_two {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .card img {
+        width: 600px;
+    }
+    .ulugbek{
+        padding-left: 50px;
+    }
+    .footer_h {
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .footer_p {
+        padding: 63px 50px;
+    
+    
+    }
+    input {
+        position: relative;
+        left: 400px;
+        top: -120px;
+    
+    }
+    
+    .ulugbek_btn {
+        position: relative;
+        left: 600px;
+        top: -162px;
+    }
+}
+
+@media only screen and (max-width:680px) {
+
+    .cardas img {
+        width: 550px;
+    }
+    .footer_t {
+        grid-template-columns: 120px   ;
+        grid-template-rows: 24px;
+    }
+    .ulugbek{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        padding-left: 50px;
+    }
+    input {
+        position: relative;
+        left: 200px;
+        top: -500px;
+    
+    }
+    
+    .ulugbek_btn {
+        position: relative;
+        left: 400px;
+        top: -540px;
+    }
+
+}
+
+@media only screen and (max-width:630px) {
+    .card_team {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .header_logo {
+        width: 200px;
+        margin: 30px 10px
+    }
+
+    .header {
+        padding: 10px 40px;
+    }
+
+    .header_item {
+        gap: 25px;
+    }
+
+    .header {
+        padding: 10px 10px;
+    }
+
+    .header_item {
+        gap: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+
+    .cardas img {
+        width: 450px;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    .card img {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .card img {
+        width: 420px;
+    }
+
+    .p_align {
+        padding-bottom: 30px;
+    }
+
+    .cardas img {
+        width: 350px;
+    }
+    input {
+        width: 150px;
+        position: relative;
+        left: 200px;
+        top: -500px;
+    
+    }
+    
+    .ulugbek_btn {
+        position: relative;
+        left: 300px;
+        top: -542px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .header_logo {
+        width: 150px;
+        margin: 25px 10px
+    }
+
+    .card img {
+        width: 380px;
+    }
+
+
+}
+
+@media only screen and (max-width:400px) {
+    .card img {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .header_logo {
+        width: 100px;
+        margin: 30px 10px
+    }
+
+    .cards_two {
+        padding: 0 20px 70px
+    }
+
+    .cardas img {
+        width: 300px;
+    }
+
+    .text_card_title_two {
+        margin-bottom: 12px;
+        font-size: 24px
+    }
+
+    .text_card_text_two {
+        font-size: 16px;
+        line-height: 26px
+    }
+    input {
+        width: 150px;
+        position: relative;
+        left: 100px;
+        top:700px;
+    
+    }
+    
+    .ulugbek_btn {
+        position: relative;
+        left: 220px;
+        top: 658px;
+    }
+    .ulugbek{
+        display: grid;
+        grid-template-columns: 200px;
+        padding-left: 120px;
+    }
+    .footer_h {
+        color: white;
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .card img {
+        width: 280px;
+    }
+
+    .p_align {
+        padding-bottom: 10px;
+    }
+
+    .cardas img {
+        width: 250px;
+    }
+
+}
